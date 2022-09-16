@@ -1,0 +1,79 @@
+.transaction-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+.first-heading-transaction {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+.second-heading-transaction{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+.transaction-table {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 32px 8px 12px;
+}
+.first-heading{
+    padding: 8px 32px 8px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.second-heading {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.item1 {
+    width: 7%;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding: 0px 4px 4px 8px;
+    margin: 4px 32px 8px 12px;
+}
+.item2 {
+    width: 100px;
+    padding: 0px 4px 4px 8px;
+} 
+.main-table-row {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 4px 16px 4px 16px;
+}
+tr:nth-child(even) {
+    background-color: rgb(237, 240, 237);
+}
+
+.export-btn {
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 4px 12px 6px 12px;
+    color: white;
+}
+.recent-transactions {
+    font-weight: bolder;
+}
+.table-one {
+    padding-top: 8px;
+}
+.completed {
+    border-radius: 25px;
+    background-color: rgb(71, 234, 160);
+    color: white;
+    height: 24px;
+    width: 8%;
+    padding: 0px 8px 0px 8px;
+    font-size: 14px;
+}
